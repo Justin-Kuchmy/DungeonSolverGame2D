@@ -1,0 +1,57 @@
+# =========================
+# Build directories (CMake)
+# =========================
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# =========================
+# CMake generated files
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Object files / binaries
+# =========================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+
+# =========================
+# SDL / runtime artifacts (optional)
+# =========================
+*.log
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CTest / testing
+# =========================
+Testing/
+CTestTestfile.cmake
